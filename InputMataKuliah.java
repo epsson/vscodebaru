@@ -11,7 +11,7 @@ class MataKuliah {
     public MataKuliah(String namaMataKuliah, int sks, String nilaiHuruf) {
         this.namaMataKuliah = namaMataKuliah;
         this.sks = sks;
-        this.nilaiHuruf = nilaiHuruf.toUpperCase();  // Memastikan nilai huruf dalam huruf besar
+        this.nilaiHuruf = nilaiHuruf.toUpperCase();
         this.bobot = hitungBobot(this.nilaiHuruf);
     }
 
